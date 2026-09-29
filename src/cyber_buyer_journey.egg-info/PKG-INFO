@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: cyber-buyer-journey
+Version: 0.5.2
+Requires-Python: >=3.11
+Requires-Dist: flask<4,>=3
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=8; extra == "dev"
+Provides-Extra: laya
+Requires-Dist: laya; extra == "laya"
+Provides-Extra: qwen-embed
+Requires-Dist: sentence-transformers>=4.1; extra == "qwen-embed"
+Provides-Extra: qwen-chat
+Requires-Dist: transformers>=4.51; extra == "qwen-chat"
+Requires-Dist: torch; extra == "qwen-chat"
+Requires-Dist: accelerate; extra == "qwen-chat"

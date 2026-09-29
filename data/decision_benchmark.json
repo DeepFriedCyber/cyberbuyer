@@ -1,0 +1,455 @@
+{
+  "version": "0.3.1",
+  "cases": [
+    {
+      "id": "Q001",
+      "question": "What is MDR?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q002",
+      "question": "How much does MDR cost?",
+      "expected": {
+        "gap_theme": "PRICING",
+        "intent": "commercial",
+        "stage": "evaluating"
+      }
+    },
+    {
+      "id": "Q003",
+      "question": "What is included in the price?",
+      "expected": {
+        "gap_theme": "PRICING",
+        "intent": "commercial",
+        "stage": "evaluating"
+      }
+    },
+    {
+      "id": "Q004",
+      "question": "Does pricing change with employee count?",
+      "expected": {
+        "gap_theme": "PRICING",
+        "intent": "commercial",
+        "stage": "evaluating"
+      }
+    },
+    {
+      "id": "Q005",
+      "question": "Can we try it before committing?",
+      "expected": {
+        "gap_theme": "TRIAL_POC",
+        "intent": "commercial",
+        "stage": "evaluating"
+      }
+    },
+    {
+      "id": "Q006",
+      "question": "Do you offer a proof of concept?",
+      "expected": {
+        "gap_theme": "TRIAL_POC",
+        "intent": "commercial",
+        "stage": "evaluating"
+      }
+    },
+    {
+      "id": "Q007",
+      "question": "Could we test MDR for a month?",
+      "expected": {
+        "gap_theme": "TRIAL_POC",
+        "intent": "commercial",
+        "stage": "evaluating"
+      }
+    },
+    {
+      "id": "Q008",
+      "question": "Is there a trial period?",
+      "expected": {
+        "gap_theme": "TRIAL_POC",
+        "intent": "commercial",
+        "stage": "evaluating"
+      }
+    },
+    {
+      "id": "Q009",
+      "question": "How long does implementation take?",
+      "expected": {
+        "gap_theme": "IMPLEMENTATION",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q010",
+      "question": "How quickly could you deploy this?",
+      "expected": {
+        "gap_theme": "IMPLEMENTATION",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q011",
+      "question": "What does onboarding involve?",
+      "expected": {
+        "gap_theme": "IMPLEMENTATION",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q012",
+      "question": "Will deployment cause downtime?",
+      "expected": {
+        "gap_theme": "DOWNTIME",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q013",
+      "question": "Will this disrupt our users?",
+      "expected": {
+        "gap_theme": "DOWNTIME",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q014",
+      "question": "We already use an MSP. Would we still need you?",
+      "expected": {
+        "gap_theme": "MSP",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q015",
+      "question": "Does this replace our IT provider?",
+      "expected": {
+        "gap_theme": "MSP",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q016",
+      "question": "Our MSP manages Defender. Where would MDR fit?",
+      "expected": {
+        "gap_theme": "MSP",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q017",
+      "question": "What happens if we're attacked at 2am?",
+      "expected": {
+        "gap_theme": "INCIDENT",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q018",
+      "question": "Who responds to an incident overnight?",
+      "expected": {
+        "gap_theme": "INCIDENT",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q019",
+      "question": "What happens after a breach is detected?",
+      "expected": {
+        "gap_theme": "INCIDENT",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q020",
+      "question": "Can we cancel if it isn't right for us?",
+      "expected": {
+        "gap_theme": "CONTRACT",
+        "intent": "commercial",
+        "stage": "evaluating"
+      }
+    },
+    {
+      "id": "Q021",
+      "question": "What contract commitment is required?",
+      "expected": {
+        "gap_theme": "CONTRACT",
+        "intent": "commercial",
+        "stage": "evaluating"
+      }
+    },
+    {
+      "id": "Q022",
+      "question": "Are we locked into a long contract?",
+      "expected": {
+        "gap_theme": "CONTRACT",
+        "intent": "commercial",
+        "stage": "evaluating"
+      }
+    },
+    {
+      "id": "Q023",
+      "question": "Does MDR help with cyber insurance?",
+      "expected": {
+        "gap_theme": "INSURANCE",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q024",
+      "question": "Will our insurer recognise the service?",
+      "expected": {
+        "gap_theme": "INSURANCE",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q025",
+      "question": "We already have Microsoft Defender. Why MDR?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q026",
+      "question": "Defender caught the phishing email, so what would you add?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q027",
+      "question": "Do we need MDR with Business Premium?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q028",
+      "question": "What is the difference between MDR and EDR?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q029",
+      "question": "MDR vs managed SOC: what is the difference?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q030",
+      "question": "Do you monitor alerts 24/7?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q031",
+      "question": "Where is your SOC based?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q032",
+      "question": "Can you support Microsoft Sentinel?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q033",
+      "question": "Which endpoint tools do you integrate with?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q034",
+      "question": "Do you cover Microsoft 365?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q035",
+      "question": "What reports would our board receive?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q036",
+      "question": "Can our compliance team see evidence?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q037",
+      "question": "Do you have customer case studies?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q038",
+      "question": "Can I see how the SOC actually works?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q039",
+      "question": "Is there a short video explaining the service?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q040",
+      "question": "I'm just researching this for our FD.",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q041",
+      "question": "I don't want a sales call. Can I keep researching?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q042",
+      "question": "Can somebody answer this without putting me into a sales process?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q043",
+      "question": "Our renewal isn't until December. Is it too early to start looking?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q044",
+      "question": "We're comparing three providers at the moment.",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q045",
+      "question": "What should I ask an MDR provider before buying?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q046",
+      "question": "How is this different from running a SOC ourselves?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q047",
+      "question": "We have no internal security team. Is that a problem?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q048",
+      "question": "We're about 120 people and use Microsoft 365.",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q049",
+      "question": "What happens next if I want more information?",
+      "expected": {
+        "gap_theme": "OTHER",
+        "intent": "research",
+        "stage": "researching"
+      }
+    },
+    {
+      "id": "Q050",
+      "question": "Could we evaluate it first and what would it cost?",
+      "expected": {
+        "gap_theme": "TRIAL_POC",
+        "intent": "commercial",
+        "stage": "evaluating"
+      }
+    }
+  ]
+}

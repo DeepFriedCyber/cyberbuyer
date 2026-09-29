@@ -1,0 +1,83 @@
+{
+  "contracts": {},
+  "tests": {
+    "tests/test_corpus_integration.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..",
+      "sha1": "6df5d10033c5748c080f286a301b94516d0e72e0",
+      "txhash": []
+    },
+    "tests/test_decision.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "......",
+      "sha1": "91d57b8af5c1f73788a7a343f8b710980aedf414",
+      "txhash": []
+    },
+    "tests/test_evidence.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "....",
+      "sha1": "688dca6fc27ca655e240b29ddd553c46abd64cb8",
+      "txhash": []
+    },
+    "tests/test_insights.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "f08cf2243b16f99c5a708b6d60b998277e1c0913",
+      "txhash": []
+    },
+    "tests/test_laya_adapter.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "25ad1af9edb495dcc8e011445e24c7883b2be27c",
+      "txhash": []
+    },
+    "tests/test_qwen_adapters.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..",
+      "sha1": "a1d2c6fe0e0c5c824b5259cc80bb5dad335aec82",
+      "txhash": []
+    },
+    "tests/test_qwen_retriever.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..",
+      "sha1": "ea92e1f68b0031613e0df0f39fe136d661f127d2",
+      "txhash": []
+    },
+    "tests/test_qwen_verifier.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "5ce72c16326d64e7fd550cb033f6df87c685a753",
+      "txhash": []
+    },
+    "tests/test_service.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "....",
+      "sha1": "5efa6e36fcd44743300b52843de603728048e6f6",
+      "txhash": []
+    },
+    "tests/test_shadow_evaluation.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "...",
+      "sha1": "f3bc48e1fe29257aeed843dd9ef0b2e89ca57c47",
+      "txhash": []
+    },
+    "tests/test_verifier.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".....",
+      "sha1": "d56818df97906b42d5e19ca084a458ba91532141",
+      "txhash": []
+    }
+  },
+  "tx": {}
+}

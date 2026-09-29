@@ -1,0 +1,51 @@
+id,question,expected_theme,actual_theme,expected_intent,actual_intent,expected_stage,actual_stage,theme_ok,intent_ok,stage_ok,confidence,engine,latency_ms
+Q001,What is MDR?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.021
+Q002,How much does MDR cost?,PRICING,PRICING,commercial,commercial,evaluating,evaluating,True,True,True,0.7,rules,0.006
+Q003,What is included in the price?,PRICING,PRICING,commercial,commercial,evaluating,evaluating,True,True,True,0.7,rules,0.004
+Q004,Does pricing change with employee count?,PRICING,PRICING,commercial,commercial,evaluating,evaluating,True,True,True,0.7,rules,0.003
+Q005,Can we try it before committing?,TRIAL_POC,TRIAL_POC,commercial,commercial,evaluating,evaluating,True,True,True,0.7,rules,0.003
+Q006,Do you offer a proof of concept?,TRIAL_POC,TRIAL_POC,commercial,commercial,evaluating,evaluating,True,True,True,0.7,rules,0.002
+Q007,Could we test MDR for a month?,TRIAL_POC,OTHER,commercial,research,evaluating,researching,False,False,False,0.7,rules,0.005
+Q008,Is there a trial period?,TRIAL_POC,TRIAL_POC,commercial,commercial,evaluating,evaluating,True,True,True,0.7,rules,0.002
+Q009,How long does implementation take?,IMPLEMENTATION,IMPLEMENTATION,research,research,researching,researching,True,True,True,0.7,rules,0.003
+Q010,How quickly could you deploy this?,IMPLEMENTATION,OTHER,research,research,researching,researching,False,True,True,0.7,rules,0.005
+Q011,What does onboarding involve?,IMPLEMENTATION,IMPLEMENTATION,research,research,researching,researching,True,True,True,0.7,rules,0.003
+Q012,Will deployment cause downtime?,DOWNTIME,IMPLEMENTATION,research,research,researching,researching,False,True,True,0.7,rules,0.003
+Q013,Will this disrupt our users?,DOWNTIME,OTHER,research,research,researching,researching,False,True,True,0.7,rules,0.004
+Q014,We already use an MSP. Would we still need you?,MSP,MSP,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q015,Does this replace our IT provider?,MSP,MSP,research,research,researching,researching,True,True,True,0.7,rules,0.003
+Q016,Our MSP manages Defender. Where would MDR fit?,MSP,MSP,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q017,What happens if we're attacked at 2am?,INCIDENT,INCIDENT,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q018,Who responds to an incident overnight?,INCIDENT,INCIDENT,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q019,What happens after a breach is detected?,INCIDENT,INCIDENT,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q020,Can we cancel if it isn't right for us?,CONTRACT,CONTRACT,commercial,commercial,evaluating,evaluating,True,True,True,0.7,rules,0.004
+Q021,What contract commitment is required?,CONTRACT,CONTRACT,commercial,commercial,evaluating,evaluating,True,True,True,0.7,rules,0.004
+Q022,Are we locked into a long contract?,CONTRACT,CONTRACT,commercial,commercial,evaluating,evaluating,True,True,True,0.7,rules,0.004
+Q023,Does MDR help with cyber insurance?,INSURANCE,INSURANCE,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q024,Will our insurer recognise the service?,INSURANCE,INSURANCE,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q025,We already have Microsoft Defender. Why MDR?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q026,"Defender caught the phishing email, so what would you add?",OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q027,Do we need MDR with Business Premium?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q028,What is the difference between MDR and EDR?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q029,MDR vs managed SOC: what is the difference?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q030,Do you monitor alerts 24/7?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q031,Where is your SOC based?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q032,Can you support Microsoft Sentinel?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q033,Which endpoint tools do you integrate with?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q034,Do you cover Microsoft 365?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q035,What reports would our board receive?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q036,Can our compliance team see evidence?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q037,Do you have customer case studies?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q038,Can I see how the SOC actually works?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.004
+Q039,Is there a short video explaining the service?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.038
+Q040,I'm just researching this for our FD.,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q041,I don't want a sales call. Can I keep researching?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q042,Can somebody answer this without putting me into a sales process?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q043,Our renewal isn't until December. Is it too early to start looking?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q044,We're comparing three providers at the moment.,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q045,What should I ask an MDR provider before buying?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q046,How is this different from running a SOC ourselves?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q047,We have no internal security team. Is that a problem?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q048,We're about 120 people and use Microsoft 365.,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q049,What happens next if I want more information?,OTHER,OTHER,research,research,researching,researching,True,True,True,0.7,rules,0.005
+Q050,Could we evaluate it first and what would it cost?,TRIAL_POC,PRICING,commercial,commercial,evaluating,evaluating,False,True,True,0.7,rules,0.003

@@ -1,0 +1,106 @@
+{
+  "chunks": [
+    {
+      "id": "defender",
+      "topic": "Defender vs MDR",
+      "terms": "microsoft m365 defender sentinel business premium why need mdr",
+      "simple": "Microsoft Defender provides detection technology. The approved material describes MDR as the additional 24/7 human investigation and response layer, including containment actions for confirmed incidents.",
+      "technical": "The approved Microsoft 365 material describes a Defender/Sentinel-native monitoring model with human investigation and containment for confirmed incidents.",
+      "asset": "75 sec \u2014 Defender detected it. Who deals with it?",
+      "follow": [
+        "What happens if an attack starts at 2am?",
+        "Can we keep our existing security tools?",
+        "How much does MDR cost?"
+      ],
+      "source": {
+        "title": "Best MDR for Microsoft 365 UK (2026)",
+        "url": "https://www.precursorsecurity.com/blog/best-mdr-for-microsoft-365"
+      }
+    },
+    {
+      "id": "overnight",
+      "topic": "Overnight response",
+      "terms": "2am overnight weekend out hours attack alert triage containment forensic incident ransomware",
+      "simple": "The approved MDR material gives an overnight sequence: a critical alert is picked up by a human analyst, investigated, contained when confirmed, followed through with forensic investigation, and documented in an incident report.",
+      "technical": "The published sequence describes EDR detection, analyst triage, ATT&CK correlation, containment after confirmation, forensic mapping of the attack chain, and an incident report.",
+      "asset": "90 sec \u2014 What actually happens at 2am?",
+      "follow": [
+        "How quickly could monitoring start?",
+        "Can we keep our existing tools?",
+        "What does MDR cost?"
+      ],
+      "source": {
+        "title": "Managed Detection & Response (MDR) UK",
+        "url": "https://www.precursorsecurity.com/services/defensive-security/managed-detection-response-mdr"
+      }
+    },
+    {
+      "id": "pricing",
+      "topic": "Pricing",
+      "terms": "price pricing cost \u00a3900 monthly month endpoints users log sources tier included",
+      "simple": "The approved material publishes MDR from \u00a3900 per month. It says pricing varies with endpoints or users, log sources and service tier, with fixed monthly pricing after scoping and incident response included.",
+      "technical": "The public MDR material states an entry price of \u00a3900/month, with scope driven by endpoints/users, log sources and service tier. Full incident response is described as included.",
+      "asset": "60 sec \u2014 What does MDR actually cost?",
+      "follow": [
+        "What exactly is included?",
+        "How long does onboarding take?",
+        "Can we keep our existing tools?"
+      ],
+      "source": {
+        "title": "Managed Detection & Response (MDR) UK",
+        "url": "https://www.precursorsecurity.com/services/defensive-security/managed-detection-response-mdr"
+      }
+    },
+    {
+      "id": "soc",
+      "topic": "Managed SOC",
+      "terms": "managed soc security operations centre outsourced analysts monitor investigate contain siem plain english",
+      "simple": "A managed SOC is essentially an outsourced security team watching for threats around the clock. The approved material describes external analysts monitoring, investigating and containing threats as a service.",
+      "technical": "The approved guide describes outsourced 24/7 security operations combining platform tooling with analysts who correlate telemetry, triage alerts, hunt for threats and support incident response.",
+      "asset": "90 sec \u2014 What actually happens inside a SOC?",
+      "follow": [
+        "How is MDR different from our MSP?",
+        "What happens at 2am?",
+        "How much does it cost?"
+      ],
+      "source": {
+        "title": "What is a Managed SOC? UK Guide (2026)",
+        "url": "https://www.precursorsecurity.com/blog/what-is-a-managed-soc"
+      }
+    },
+    {
+      "id": "tools",
+      "topic": "Existing tooling",
+      "terms": "existing tools keep replace vendor agnostic crowdstrike sentinelone defender carbon black edr siem xdr integrate",
+      "simple": "The approved MDR material describes the service as vendor-agnostic and able to integrate with existing security tooling rather than requiring every customer to replace its stack.",
+      "technical": "The MDR material describes correlation across endpoint, network, identity and cloud telemetry and vendor-agnostic integration with common EDR tooling.",
+      "asset": "75 sec \u2014 Keep your tools; add the human response layer",
+      "follow": [
+        "We already use Microsoft Defender. Why need MDR?",
+        "How long does onboarding take?",
+        "What happens during an incident?"
+      ],
+      "source": {
+        "title": "Managed Detection & Response (MDR) UK",
+        "url": "https://www.precursorsecurity.com/services/defensive-security/managed-detection-response-mdr"
+      }
+    },
+    {
+      "id": "onboarding",
+      "topic": "Onboarding",
+      "terms": "onboarding deploy deployment implement implementation start monitoring operational days weeks signature",
+      "simple": "The approved MDR page says active monitoring can begin within 5 to 10 days of contract signature. The broader managed-SOC guide describes managed SOC services as typically operational within 2 to 3 weeks.",
+      "technical": "For MDR specifically, the published timeframe is active monitoring within 5\u201310 days of contract signature. The broader managed-SOC guide separately describes a typical 2\u20133 week operational timeframe.",
+      "asset": "60 sec \u2014 What onboarding actually involves",
+      "follow": [
+        "Will onboarding cause downtime?",
+        "Can we keep our existing tools?",
+        "How much does MDR cost?"
+      ],
+      "source": {
+        "title": "Managed Detection & Response (MDR) UK",
+        "url": "https://www.precursorsecurity.com/services/defensive-security/managed-detection-response-mdr"
+      }
+    }
+  ]
+}

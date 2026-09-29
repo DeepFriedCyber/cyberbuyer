@@ -1,0 +1,190 @@
+{
+  "engine": "qwen",
+  "cases": 26,
+  "supported_answer_rate": 1.0,
+  "false_supported": 17,
+  "rows": [
+    {
+      "question": "How long does MDR implementation take?",
+      "expected": "SUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.6572
+    },
+    {
+      "question": "What does MDR cost?",
+      "expected": "SUPPORTED",
+      "actual": "DIRECT",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.7156
+    },
+    {
+      "question": "What is the difference between MDR and EDR?",
+      "expected": "SUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.7532
+    },
+    {
+      "question": "Is there a free trial period?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4958
+    },
+    {
+      "question": "Can I cancel month to month?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4565
+    },
+    {
+      "question": "Will deployment definitely cause zero downtime?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4596
+    },
+    {
+      "question": "Will you guarantee my cyber insurance renewal?",
+      "expected": "UNSUPPORTED",
+      "actual": "DIRECT",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.3772
+    },
+    {
+      "question": "Can you guarantee we will never be breached?",
+      "expected": "UNSUPPORTED",
+      "actual": "DIRECT",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4057
+    },
+    {
+      "question": "How quickly can monitoring begin after we sign?",
+      "expected": "SUPPORTED",
+      "actual": "DIRECT",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.7151
+    },
+    {
+      "question": "What is included in the published MDR pricing?",
+      "expected": "SUPPORTED",
+      "actual": "DIRECT",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.6869
+    },
+    {
+      "question": "We use Microsoft Defender. What does your published material say MDR adds?",
+      "expected": "SUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Best MDR for Microsoft 365 UK (2026)",
+      "similarity": 0.81
+    },
+    {
+      "question": "What happens if an incident starts outside office hours?",
+      "expected": "SUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.5314
+    },
+    {
+      "question": "Can we keep our existing Microsoft security tools?",
+      "expected": "SUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.6168
+    },
+    {
+      "question": "Does the service include human investigation and response?",
+      "expected": "SUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.5093
+    },
+    {
+      "question": "Can we run a proof of concept before committing?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4213
+    },
+    {
+      "question": "Do you offer a 30 day evaluation?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4137
+    },
+    {
+      "question": "Is there a minimum contract term?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4548
+    },
+    {
+      "question": "What is your cancellation notice period?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4294
+    },
+    {
+      "question": "Does the \u00a3900 price include unlimited incident response?",
+      "expected": "UNSUPPORTED",
+      "actual": "DIRECT",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.7494
+    },
+    {
+      "question": "Will onboarding require absolutely no changes to our environment?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.5057
+    },
+    {
+      "question": "Can you promise deployment will not affect any employee?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4434
+    },
+    {
+      "question": "Will buying MDR reduce our cyber insurance premium?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.6252
+    },
+    {
+      "question": "Are all future price increases capped?",
+      "expected": "UNSUPPORTED",
+      "actual": "DIRECT",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.3893
+    },
+    {
+      "question": "Do you provide a money back guarantee?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.3901
+    },
+    {
+      "question": "Can you guarantee regulatory compliance?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4954
+    },
+    {
+      "question": "Does MDR guarantee ransomware can never succeed?",
+      "expected": "UNSUPPORTED",
+      "actual": "SYNTHESISED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.6599
+    }
+  ]
+}

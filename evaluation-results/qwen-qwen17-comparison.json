@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "cases": 50,
+    "theme_accuracy": 0.9,
+    "intent_accuracy": 0.98,
+    "stage_accuracy": 0.98
+  },
+  "qwen3_1.7b": {
+    "cases": 50,
+    "theme_accuracy": 0.68,
+    "intent_accuracy": 0.28,
+    "stage_accuracy": 0.28
+  },
+  "theme_delta_vs_rules": -0.22
+}

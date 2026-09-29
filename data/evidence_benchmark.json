@@ -1,0 +1,106 @@
+[
+  {
+    "q": "How long does MDR implementation take?",
+    "expected": "SUPPORTED"
+  },
+  {
+    "q": "What does MDR cost?",
+    "expected": "SUPPORTED"
+  },
+  {
+    "q": "What is the difference between MDR and EDR?",
+    "expected": "SUPPORTED"
+  },
+  {
+    "q": "Is there a free trial period?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Can I cancel month to month?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Will deployment definitely cause zero downtime?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Will you guarantee my cyber insurance renewal?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Can you guarantee we will never be breached?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "How quickly can monitoring begin after we sign?",
+    "expected": "SUPPORTED"
+  },
+  {
+    "q": "What is included in the published MDR pricing?",
+    "expected": "SUPPORTED"
+  },
+  {
+    "q": "We use Microsoft Defender. What does your published material say MDR adds?",
+    "expected": "SUPPORTED"
+  },
+  {
+    "q": "What happens if an incident starts outside office hours?",
+    "expected": "SUPPORTED"
+  },
+  {
+    "q": "Can we keep our existing Microsoft security tools?",
+    "expected": "SUPPORTED"
+  },
+  {
+    "q": "Does the service include human investigation and response?",
+    "expected": "SUPPORTED"
+  },
+  {
+    "q": "Can we run a proof of concept before committing?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Do you offer a 30 day evaluation?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Is there a minimum contract term?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "What is your cancellation notice period?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Does the \u00a3900 price include unlimited incident response?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Will onboarding require absolutely no changes to our environment?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Can you promise deployment will not affect any employee?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Will buying MDR reduce our cyber insurance premium?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Are all future price increases capped?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Do you provide a money back guarantee?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Can you guarantee regulatory compliance?",
+    "expected": "UNSUPPORTED"
+  },
+  {
+    "q": "Does MDR guarantee ransomware can never succeed?",
+    "expected": "UNSUPPORTED"
+  }
+]

@@ -1,0 +1,373 @@
+{
+  "engine": "qwen3-embedding-0.6b + qwen3-1.7b-verifier",
+  "cases": 26,
+  "supported_accept_rate": 0.889,
+  "unsupported_reject_rate": 0.529,
+  "false_supported": 8,
+  "rows": [
+    {
+      "question": "How long does MDR implementation take?",
+      "expected": "SUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.6572,
+      "supported_claims": [
+        "The approved MDR page says active monitoring can begin within 5 to 10 days of contract signature."
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "onboarding",
+        "tools",
+        "defender"
+      ]
+    },
+    {
+      "question": "What does MDR cost?",
+      "expected": "SUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.7156,
+      "supported_claims": [
+        "The approved material publishes MDR from \u00a3900 per month."
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "pricing"
+      ]
+    },
+    {
+      "question": "What is the difference between MDR and EDR?",
+      "expected": "SUPPORTED",
+      "verdict": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.7532,
+      "supported_claims": [],
+      "unsupported_claims": [],
+      "evidence_ids": []
+    },
+    {
+      "question": "Is there a free trial period?",
+      "expected": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4958,
+      "supported_claims": [
+        "Is there a free trial period?"
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "pricing",
+        "onboarding"
+      ]
+    },
+    {
+      "question": "Can I cancel month to month?",
+      "expected": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4565,
+      "supported_claims": [
+        "Can I cancel month to month?"
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "pricing",
+        "tools",
+        "onboarding"
+      ]
+    },
+    {
+      "question": "Will deployment definitely cause zero downtime?",
+      "expected": "UNSUPPORTED",
+      "verdict": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4596,
+      "supported_claims": [],
+      "unsupported_claims": [],
+      "evidence_ids": []
+    },
+    {
+      "question": "Will you guarantee my cyber insurance renewal?",
+      "expected": "UNSUPPORTED",
+      "verdict": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.3772,
+      "supported_claims": [],
+      "unsupported_claims": [],
+      "evidence_ids": []
+    },
+    {
+      "question": "Can you guarantee we will never be breached?",
+      "expected": "UNSUPPORTED",
+      "verdict": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4057,
+      "supported_claims": [],
+      "unsupported_claims": [
+        "Can you guarantee we will never be breached?"
+      ],
+      "evidence_ids": [
+        "tools",
+        "defender",
+        "onboarding"
+      ]
+    },
+    {
+      "question": "How quickly can monitoring begin after we sign?",
+      "expected": "SUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.7151,
+      "supported_claims": [
+        "How quickly can monitoring begin after we sign?"
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "onboarding",
+        "tools",
+        "pricing"
+      ]
+    },
+    {
+      "question": "What is included in the published MDR pricing?",
+      "expected": "SUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.6869,
+      "supported_claims": [
+        "The approved material publishes MDR from \u00a3900 per month.",
+        "pricing varies with endpoints or users, log sources and service tier, with fixed monthly pricing after scoping and incident response included"
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "pricing",
+        "defender"
+      ]
+    },
+    {
+      "question": "We use Microsoft Defender. What does your published material say MDR adds?",
+      "expected": "SUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Best MDR for Microsoft 365 UK (2026)",
+      "similarity": 0.81,
+      "supported_claims": [
+        "Microsoft Defender provides detection technology."
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "defender",
+        "tools",
+        "pricing"
+      ]
+    },
+    {
+      "question": "What happens if an incident starts outside office hours?",
+      "expected": "SUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.5314,
+      "supported_claims": [
+        "The approved MDR material gives an overnight sequence: a critical alert is picked up by a human analyst, investigated, contained when confirmed, followed through with forensic investigation, and documented in an incident report."
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "overnight",
+        "tools",
+        "onboarding"
+      ]
+    },
+    {
+      "question": "Can we keep our existing Microsoft security tools?",
+      "expected": "SUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.6168,
+      "supported_claims": [
+        "tools",
+        "defender",
+        "soc"
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "tools",
+        "defender",
+        "soc"
+      ]
+    },
+    {
+      "question": "Does the service include human investigation and response?",
+      "expected": "SUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.5093,
+      "supported_claims": [
+        "The service includes human investigation and response"
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "tools",
+        "overnight",
+        "defender"
+      ]
+    },
+    {
+      "question": "Can we run a proof of concept before committing?",
+      "expected": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4213,
+      "supported_claims": [
+        "Can we run a proof of concept before committing?",
+        "The MDR is vendor-agnostic and can integrate with existing security tooling"
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "tools",
+        "onboarding",
+        "defender"
+      ]
+    },
+    {
+      "question": "Do you offer a 30 day evaluation?",
+      "expected": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4137,
+      "supported_claims": [
+        "Do you offer a 30 day evaluation?"
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "onboarding",
+        "tools",
+        "pricing"
+      ]
+    },
+    {
+      "question": "Is there a minimum contract term?",
+      "expected": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4548,
+      "supported_claims": [
+        "Is there a minimum contract term?"
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "onboarding",
+        "tools",
+        "pricing"
+      ]
+    },
+    {
+      "question": "What is your cancellation notice period?",
+      "expected": "UNSUPPORTED",
+      "verdict": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4294,
+      "supported_claims": [],
+      "unsupported_claims": [],
+      "evidence_ids": []
+    },
+    {
+      "question": "Does the \u00a3900 price include unlimited incident response?",
+      "expected": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.7494,
+      "supported_claims": [
+        "The approved MDR material states that full incident response is described as included"
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "pricing",
+        "tools",
+        "overnight"
+      ]
+    },
+    {
+      "question": "Will onboarding require absolutely no changes to our environment?",
+      "expected": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.5057,
+      "supported_claims": [
+        "The MDR service is vendor-agnostic and can integrate with existing security tooling",
+        "Active monitoring can begin within 5 to 10 days of contract signature"
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "tools",
+        "onboarding"
+      ]
+    },
+    {
+      "question": "Can you promise deployment will not affect any employee?",
+      "expected": "UNSUPPORTED",
+      "verdict": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4434,
+      "supported_claims": [],
+      "unsupported_claims": [],
+      "evidence_ids": []
+    },
+    {
+      "question": "Will buying MDR reduce our cyber insurance premium?",
+      "expected": "UNSUPPORTED",
+      "verdict": "SUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.6252,
+      "supported_claims": [
+        "MDR is vendor-agnostic and can integrate with existing security tooling",
+        "MDR includes 24/7 human investigation and response for confirmed incidents",
+        "MDR pricing is \u00a3900/month with scope driven by endpoints/users, log sources, and service tier"
+      ],
+      "unsupported_claims": [],
+      "evidence_ids": [
+        "tools",
+        "pricing",
+        "defender"
+      ]
+    },
+    {
+      "question": "Are all future price increases capped?",
+      "expected": "UNSUPPORTED",
+      "verdict": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.3893,
+      "supported_claims": [],
+      "unsupported_claims": [],
+      "evidence_ids": []
+    },
+    {
+      "question": "Do you provide a money back guarantee?",
+      "expected": "UNSUPPORTED",
+      "verdict": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.3901,
+      "supported_claims": [],
+      "unsupported_claims": [],
+      "evidence_ids": []
+    },
+    {
+      "question": "Can you guarantee regulatory compliance?",
+      "expected": "UNSUPPORTED",
+      "verdict": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.4954,
+      "supported_claims": [],
+      "unsupported_claims": [],
+      "evidence_ids": []
+    },
+    {
+      "question": "Does MDR guarantee ransomware can never succeed?",
+      "expected": "UNSUPPORTED",
+      "verdict": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.6599,
+      "supported_claims": [],
+      "unsupported_claims": [],
+      "evidence_ids": []
+    }
+  ]
+}

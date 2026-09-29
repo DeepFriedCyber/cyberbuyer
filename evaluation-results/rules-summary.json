@@ -1,0 +1,6 @@
+{
+  "cases": 50,
+  "theme_accuracy": 0.9,
+  "intent_accuracy": 0.98,
+  "stage_accuracy": 0.98
+}

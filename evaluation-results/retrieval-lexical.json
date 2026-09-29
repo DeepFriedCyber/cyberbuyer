@@ -1,0 +1,190 @@
+{
+  "engine": "lexical",
+  "cases": 26,
+  "supported_answer_rate": 0.333,
+  "false_supported": 0,
+  "rows": [
+    {
+      "question": "How long does MDR implementation take?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Best MDR for Microsoft 365 UK (2026)",
+      "similarity": 0.1405
+    },
+    {
+      "question": "What does MDR cost?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Best MDR for Microsoft 365 UK (2026)",
+      "similarity": 0.1721
+    },
+    {
+      "question": "What is the difference between MDR and EDR?",
+      "expected": "SUPPORTED",
+      "actual": "DIRECT",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.3479
+    },
+    {
+      "question": "Is there a free trial period?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "What is a Managed SOC? UK Guide (2026)",
+      "similarity": 0.1656
+    },
+    {
+      "question": "Can I cancel month to month?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.1604
+    },
+    {
+      "question": "Will deployment definitely cause zero downtime?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.0309
+    },
+    {
+      "question": "Will you guarantee my cyber insurance renewal?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Best MDR for Microsoft 365 UK (2026)",
+      "similarity": 0.0
+    },
+    {
+      "question": "Can you guarantee we will never be breached?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.0267
+    },
+    {
+      "question": "How quickly can monitoring begin after we sign?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.1336
+    },
+    {
+      "question": "What is included in the published MDR pricing?",
+      "expected": "SUPPORTED",
+      "actual": "DIRECT",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.3474
+    },
+    {
+      "question": "We use Microsoft Defender. What does your published material say MDR adds?",
+      "expected": "SUPPORTED",
+      "actual": "DIRECT",
+      "top_candidate": "Best MDR for Microsoft 365 UK (2026)",
+      "similarity": 0.3478
+    },
+    {
+      "question": "What happens if an incident starts outside office hours?",
+      "expected": "SUPPORTED",
+      "actual": "PARTIAL",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.2046
+    },
+    {
+      "question": "Can we keep our existing Microsoft security tools?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.1897
+    },
+    {
+      "question": "Does the service include human investigation and response?",
+      "expected": "SUPPORTED",
+      "actual": "PARTIAL",
+      "top_candidate": "Best MDR for Microsoft 365 UK (2026)",
+      "similarity": 0.3043
+    },
+    {
+      "question": "Can we run a proof of concept before committing?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.1008
+    },
+    {
+      "question": "Do you offer a 30 day evaluation?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "What is a Managed SOC? UK Guide (2026)",
+      "similarity": 0.092
+    },
+    {
+      "question": "Is there a minimum contract term?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "What is a Managed SOC? UK Guide (2026)",
+      "similarity": 0.1656
+    },
+    {
+      "question": "What is your cancellation notice period?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "What is a Managed SOC? UK Guide (2026)",
+      "similarity": 0.0993
+    },
+    {
+      "question": "Does the \u00a3900 price include unlimited incident response?",
+      "expected": "UNSUPPORTED",
+      "actual": "PARTIAL",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.3207
+    },
+    {
+      "question": "Will onboarding require absolutely no changes to our environment?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.1008
+    },
+    {
+      "question": "Can you promise deployment will not affect any employee?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.0504
+    },
+    {
+      "question": "Will buying MDR reduce our cyber insurance premium?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Best MDR for Microsoft 365 UK (2026)",
+      "similarity": 0.1521
+    },
+    {
+      "question": "Are all future price increases capped?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.0617
+    },
+    {
+      "question": "Do you provide a money back guarantee?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "What is a Managed SOC? UK Guide (2026)",
+      "similarity": 0.092
+    },
+    {
+      "question": "Can you guarantee regulatory compliance?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Managed Detection & Response (MDR) UK",
+      "similarity": 0.0338
+    },
+    {
+      "question": "Does MDR guarantee ransomware can never succeed?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "top_candidate": "Best MDR for Microsoft 365 UK (2026)",
+      "similarity": 0.1301
+    }
+  ]
+}

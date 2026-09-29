@@ -1,0 +1,40 @@
+id,question,expected,rules_theme,laya_theme,rules_confidence,laya_confidence
+Q001,What is MDR?,OTHER,OTHER,IMPLEMENTATION,0.7,0.0172
+Q002,How much does MDR cost?,PRICING,PRICING,PRICING,0.7,0.0088
+Q006,Do you offer a proof of concept?,TRIAL_POC,TRIAL_POC,TRIAL_POC,0.7,0.0179
+Q007,Could we test MDR for a month?,TRIAL_POC,OTHER,TRIAL_POC,0.7,0.0742
+Q008,Is there a trial period?,TRIAL_POC,TRIAL_POC,TRIAL_POC,0.7,0.0058
+Q010,How quickly could you deploy this?,IMPLEMENTATION,OTHER,IMPLEMENTATION,0.7,0.0069
+Q012,Will deployment cause downtime?,DOWNTIME,IMPLEMENTATION,IMPLEMENTATION,0.7,0.0178
+Q013,Will this disrupt our users?,DOWNTIME,OTHER,DOWNTIME,0.7,0.0029
+Q014,We already use an MSP. Would we still need you?,MSP,MSP,MSP,0.7,0.1789
+Q015,Does this replace our IT provider?,MSP,MSP,MSP,0.7,0.2118
+Q016,Our MSP manages Defender. Where would MDR fit?,MSP,MSP,IMPLEMENTATION,0.7,0.0027
+Q017,What happens if we're attacked at 2am?,INCIDENT,INCIDENT,INCIDENT,0.7,0.0001
+Q018,Who responds to an incident overnight?,INCIDENT,INCIDENT,INCIDENT,0.7,0.0046
+Q019,What happens after a breach is detected?,INCIDENT,INCIDENT,INCIDENT,0.7,0.0091
+Q023,Does MDR help with cyber insurance?,INSURANCE,INSURANCE,INSURANCE,0.7,0.0001
+Q024,Will our insurer recognise the service?,INSURANCE,INSURANCE,INSURANCE,0.7,0.1344
+Q025,We already have Microsoft Defender. Why MDR?,OTHER,OTHER,PRICING,0.7,0.0124
+Q026,"Defender caught the phishing email, so what would you add?",OTHER,OTHER,INCIDENT,0.7,0.0133
+Q027,Do we need MDR with Business Premium?,OTHER,OTHER,PRICING,0.7,0.085
+Q028,What is the difference between MDR and EDR?,OTHER,OTHER,IMPLEMENTATION,0.7,0.0
+Q029,MDR vs managed SOC: what is the difference?,OTHER,OTHER,IMPLEMENTATION,0.7,0.0039
+Q030,Do you monitor alerts 24/7?,OTHER,OTHER,DOWNTIME,0.7,0.062
+Q031,Where is your SOC based?,OTHER,OTHER,IMPLEMENTATION,0.7,0.0005
+Q032,Can you support Microsoft Sentinel?,OTHER,OTHER,IMPLEMENTATION,0.7,0.0046
+Q033,Which endpoint tools do you integrate with?,OTHER,OTHER,MSP,0.7,0.0021
+Q034,Do you cover Microsoft 365?,OTHER,OTHER,INSURANCE,0.7,0.0025
+Q036,Can our compliance team see evidence?,OTHER,OTHER,CONTRACT,0.7,0.0367
+Q037,Do you have customer case studies?,OTHER,OTHER,INCIDENT,0.7,0.0059
+Q038,Can I see how the SOC actually works?,OTHER,OTHER,TRIAL_POC,0.7,0.0267
+Q039,Is there a short video explaining the service?,OTHER,OTHER,IMPLEMENTATION,0.7,0.0115
+Q040,I'm just researching this for our FD.,OTHER,OTHER,TRIAL_POC,0.7,0.2958
+Q042,Can somebody answer this without putting me into a sales process?,OTHER,OTHER,OTHER,0.7,0.0025
+Q043,Our renewal isn't until December. Is it too early to start looking?,OTHER,OTHER,CONTRACT,0.7,0.001
+Q044,We're comparing three providers at the moment.,OTHER,OTHER,MSP,0.7,0.113
+Q045,What should I ask an MDR provider before buying?,OTHER,OTHER,IMPLEMENTATION,0.7,0.0075
+Q046,How is this different from running a SOC ourselves?,OTHER,OTHER,IMPLEMENTATION,0.7,0.007
+Q047,We have no internal security team. Is that a problem?,OTHER,OTHER,OTHER,0.7,0.0243
+Q048,We're about 120 people and use Microsoft 365.,OTHER,OTHER,IMPLEMENTATION,0.7,0.1159
+Q049,What happens next if I want more information?,OTHER,OTHER,OTHER,0.7,0.0071

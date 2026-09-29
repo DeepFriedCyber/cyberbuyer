@@ -1,0 +1,50 @@
+[
+  {
+    "question": "We already have Microsoft Defender. Why need MDR?",
+    "normalized": "we already have microsoft defender why need mdr",
+    "status": "supported",
+    "topic": "Defender vs MDR"
+  },
+  {
+    "question": "Is there a trial period?",
+    "normalized": "is there a trial period",
+    "status": "unsupported",
+    "topic": null
+  },
+  {
+    "question": "Can I cancel after three months?",
+    "normalized": "can i cancel after three months",
+    "status": "unsupported",
+    "topic": null
+  },
+  {
+    "question": "Will onboarding cause downtime?",
+    "normalized": "will onboarding cause downtime",
+    "status": "supported",
+    "topic": "Onboarding"
+  },
+  {
+    "question": "Does this help with our cyber insurance?",
+    "normalized": "does this help with our cyber insurance",
+    "status": "unsupported",
+    "topic": null
+  },
+  {
+    "question": "Do you offer a money-back guarantee?",
+    "normalized": "do you offer a money back guarantee",
+    "status": "unsupported",
+    "topic": null
+  },
+  {
+    "question": "Is there a trial period?",
+    "normalized": "is there a trial period",
+    "status": "unsupported",
+    "topic": null
+  },
+  {
+    "question": "Is there a trial period?",
+    "normalized": "is there a trial period",
+    "status": "unsupported",
+    "topic": null
+  }
+]

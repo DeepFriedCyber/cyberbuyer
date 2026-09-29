@@ -1,0 +1,15 @@
+flask<4,>=3
+
+[dev]
+pytest<9,>=8
+
+[laya]
+laya
+
+[qwen-chat]
+transformers>=4.51
+torch
+accelerate
+
+[qwen-embed]
+sentence-transformers>=4.1
