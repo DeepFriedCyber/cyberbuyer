@@ -55,7 +55,7 @@ def main():
 
         raw_components = decomposer.decompose(question)
         components = [
-            RequestedComponent(c.component_id, c.question)
+            RequestedComponent(c.id, c.question)
             for c in raw_components if getattr(c, "material", True)
         ]
         propositions = generator.generate(components, evidence) if evidence else []
