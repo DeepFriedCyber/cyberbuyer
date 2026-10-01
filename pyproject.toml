@@ -4,11 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cyber-buyer-journey"
-version = "0.5.3"
+version = "0.5.8"
 requires-python = ">=3.11"
 dependencies = ["flask>=3,<4"]
 
 [project.optional-dependencies]
+jina-rerank = ["transformers>=4.51", "torch", "numpy"]
 dev = ["pytest>=8,<9"]
 laya = ["laya"]
 qwen-embed = ["sentence-transformers>=4.1"]
