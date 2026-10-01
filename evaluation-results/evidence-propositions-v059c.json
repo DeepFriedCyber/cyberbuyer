@@ -1,0 +1,1059 @@
+{
+  "version": "0.5.9c",
+  "cases": 26,
+  "binary_gold_note": "Existing benchmark has SUPPORTED/UNSUPPORTED labels; PARTIAL is reported as a distinct experimental state.",
+  "exact_three_state_vs_binary_gold_accuracy": 0.6538,
+  "false_supported": 0,
+  "supported_count": 0,
+  "partial_count": 0,
+  "unsupported_count": 26,
+  "mismatch_count": 9,
+  "partial_cases": [],
+  "mismatches": [
+    {
+      "question": "How long does MDR implementation take?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "onboarding"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the typical duration of MDR implementation?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The typical duration of MDR implementation is within 5 to 10 days from contract signature.",
+          "source_id": "onboarding",
+          "quote": "The approved MDR page says active monitoring can begin within 5 to 10 days of contract signature."
+        }
+      ]
+    },
+    {
+      "question": "What does MDR cost?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "pricing"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the published MDR price?",
+          "state": "UNSUPPORTED",
+          "proposition": "The published MDR price is £900 per month.",
+          "source_id": "pricing",
+          "nli_verdict": "NEUTRAL",
+          "nli_confidence": 0.9325,
+          "qualifier_check": true,
+          "numeric_check": true,
+          "provenance_check": true
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The published MDR price is £900 per month.",
+          "source_id": "pricing",
+          "quote": "The approved material publishes MDR from £900 per month."
+        }
+      ]
+    },
+    {
+      "question": "What is the difference between MDR and EDR?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "defender"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the difference between MDR and EDR?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "Microsoft Defender provides detection technology. The approved material describes MDR as the additional 24/7 human investigation and response layer, including containment actions for confirmed incidents.",
+          "source_id": "defender",
+          "quote": "The approved material describes MDR as the additional 24/7 human investigation and response layer, including containment actions for confirmed incidents."
+        }
+      ]
+    },
+    {
+      "question": "How quickly can monitoring begin after we sign?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "onboarding"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the minimum time frame for starting monitoring after signing?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The minimum time frame for starting monitoring after signing is within 5 to 10 days.",
+          "source_id": "onboarding",
+          "quote": "The approved MDR page says active monitoring can begin within 5 to 10 days of contract signature."
+        }
+      ]
+    },
+    {
+      "question": "What is included in the published MDR pricing?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "pricing"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the published MDR pricing including?",
+          "state": "UNSUPPORTED",
+          "proposition": "The published MDR pricing includes a fixed monthly fee of £900, with pricing varying based on endpoints, users, log sources, and service tier. Full incident response is included.",
+          "source_id": "pricing",
+          "nli_verdict": "NEUTRAL",
+          "nli_confidence": 0.9728,
+          "qualifier_check": true,
+          "numeric_check": true,
+          "provenance_check": true
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The published MDR pricing includes a fixed monthly fee of £900, with pricing varying based on endpoints, users, log sources, and service tier. Full incident response is included.",
+          "source_id": "pricing",
+          "quote": "The approved material publishes MDR from £900 per month. It says pricing varies with endpoints or users, log sources and service tier, with fixed monthly pricing after scoping and incident response included."
+        }
+      ]
+    },
+    {
+      "question": "We use Microsoft Defender. What does your published material say MDR adds?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "defender"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the published MDR price?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        },
+        {
+          "component_id": "c2",
+          "question": "Is incident response included in that published price?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        },
+        {
+          "component_id": "c3",
+          "question": "Is the included incident response unlimited?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The published MDR price is not specified in the evidence.",
+          "source_id": "defender",
+          "quote": "Microsoft Defender provides detection technology. The approved material describes MDR as the additional 24/7 human investigation and response layer, including containment actions for confirmed incidents."
+        }
+      ]
+    },
+    {
+      "question": "What happens if an incident starts outside office hours?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "overnight"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What happens if an incident starts outside office hours?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "An incident starting outside office hours is handled by picking up the alert overnight and following the approved MDR sequence.",
+          "source_id": "overnight",
+          "quote": "The approved MDR material gives an overnight sequence: a critical alert is picked up by a human analyst, investigated, contained when confirmed, followed through with forensic investigation, and documented in an incident report."
+        }
+      ]
+    },
+    {
+      "question": "Can we keep our existing Microsoft security tools?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "tools"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the policy regarding keeping existing Microsoft security tools?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The policy regarding keeping existing Microsoft security tools is that the service is vendor-agnostic and can integrate with existing security tooling.",
+          "source_id": "tools",
+          "quote": "The approved MDR material describes the service as vendor-agnostic and able to integrate with existing security tooling rather than requiring every customer to replace its stack."
+        }
+      ]
+    },
+    {
+      "question": "Does the service include human investigation and response?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "overnight",
+        "soc"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is human investigation and response included in the service?",
+          "state": "UNSUPPORTED",
+          "proposition": "Yes, human investigation and response are included in the service.",
+          "source_id": "overnight",
+          "nli_verdict": "NEUTRAL",
+          "nli_confidence": 0.9684,
+          "qualifier_check": true,
+          "numeric_check": true,
+          "provenance_check": true
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "Yes, human investigation and response are included in the service.",
+          "source_id": "overnight",
+          "quote": "a critical alert is picked up by a human analyst, investigated, contained when confirmed, followed through with forensic investigation, and documented in an incident report."
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "question": "How long does MDR implementation take?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "onboarding"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the typical duration of MDR implementation?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The typical duration of MDR implementation is within 5 to 10 days from contract signature.",
+          "source_id": "onboarding",
+          "quote": "The approved MDR page says active monitoring can begin within 5 to 10 days of contract signature."
+        }
+      ]
+    },
+    {
+      "question": "What does MDR cost?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "pricing"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the published MDR price?",
+          "state": "UNSUPPORTED",
+          "proposition": "The published MDR price is £900 per month.",
+          "source_id": "pricing",
+          "nli_verdict": "NEUTRAL",
+          "nli_confidence": 0.9325,
+          "qualifier_check": true,
+          "numeric_check": true,
+          "provenance_check": true
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The published MDR price is £900 per month.",
+          "source_id": "pricing",
+          "quote": "The approved material publishes MDR from £900 per month."
+        }
+      ]
+    },
+    {
+      "question": "What is the difference between MDR and EDR?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "defender"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the difference between MDR and EDR?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "Microsoft Defender provides detection technology. The approved material describes MDR as the additional 24/7 human investigation and response layer, including containment actions for confirmed incidents.",
+          "source_id": "defender",
+          "quote": "The approved material describes MDR as the additional 24/7 human investigation and response layer, including containment actions for confirmed incidents."
+        }
+      ]
+    },
+    {
+      "question": "Is there a free trial period?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is there a free trial period?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "Can I cancel month to month?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is cancellation of a month-to-month agreement allowed?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "Will deployment definitely cause zero downtime?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "onboarding"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is deployment guaranteed to cause zero downtime?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "Will you guarantee my cyber insurance renewal?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is cyber insurance renewal guaranteed?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "Can you guarantee we will never be breached?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is the guarantee of never being breached a material part of the service?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        },
+        {
+          "component_id": "c2",
+          "question": "What is the nature of the guarantee provided?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "How quickly can monitoring begin after we sign?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "onboarding"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the minimum time frame for starting monitoring after signing?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The minimum time frame for starting monitoring after signing is within 5 to 10 days.",
+          "source_id": "onboarding",
+          "quote": "The approved MDR page says active monitoring can begin within 5 to 10 days of contract signature."
+        }
+      ]
+    },
+    {
+      "question": "What is included in the published MDR pricing?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "pricing"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the published MDR pricing including?",
+          "state": "UNSUPPORTED",
+          "proposition": "The published MDR pricing includes a fixed monthly fee of £900, with pricing varying based on endpoints, users, log sources, and service tier. Full incident response is included.",
+          "source_id": "pricing",
+          "nli_verdict": "NEUTRAL",
+          "nli_confidence": 0.9728,
+          "qualifier_check": true,
+          "numeric_check": true,
+          "provenance_check": true
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The published MDR pricing includes a fixed monthly fee of £900, with pricing varying based on endpoints, users, log sources, and service tier. Full incident response is included.",
+          "source_id": "pricing",
+          "quote": "The approved material publishes MDR from £900 per month. It says pricing varies with endpoints or users, log sources and service tier, with fixed monthly pricing after scoping and incident response included."
+        }
+      ]
+    },
+    {
+      "question": "We use Microsoft Defender. What does your published material say MDR adds?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "defender"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the published MDR price?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        },
+        {
+          "component_id": "c2",
+          "question": "Is incident response included in that published price?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        },
+        {
+          "component_id": "c3",
+          "question": "Is the included incident response unlimited?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The published MDR price is not specified in the evidence.",
+          "source_id": "defender",
+          "quote": "Microsoft Defender provides detection technology. The approved material describes MDR as the additional 24/7 human investigation and response layer, including containment actions for confirmed incidents."
+        }
+      ]
+    },
+    {
+      "question": "What happens if an incident starts outside office hours?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "overnight"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What happens if an incident starts outside office hours?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "An incident starting outside office hours is handled by picking up the alert overnight and following the approved MDR sequence.",
+          "source_id": "overnight",
+          "quote": "The approved MDR material gives an overnight sequence: a critical alert is picked up by a human analyst, investigated, contained when confirmed, followed through with forensic investigation, and documented in an incident report."
+        }
+      ]
+    },
+    {
+      "question": "Can we keep our existing Microsoft security tools?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "tools"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the policy regarding keeping existing Microsoft security tools?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The policy regarding keeping existing Microsoft security tools is that the service is vendor-agnostic and can integrate with existing security tooling.",
+          "source_id": "tools",
+          "quote": "The approved MDR material describes the service as vendor-agnostic and able to integrate with existing security tooling rather than requiring every customer to replace its stack."
+        }
+      ]
+    },
+    {
+      "question": "Does the service include human investigation and response?",
+      "expected": "SUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "overnight",
+        "soc"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is human investigation and response included in the service?",
+          "state": "UNSUPPORTED",
+          "proposition": "Yes, human investigation and response are included in the service.",
+          "source_id": "overnight",
+          "nli_verdict": "NEUTRAL",
+          "nli_confidence": 0.9684,
+          "qualifier_check": true,
+          "numeric_check": true,
+          "provenance_check": true
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "Yes, human investigation and response are included in the service.",
+          "source_id": "overnight",
+          "quote": "a critical alert is picked up by a human analyst, investigated, contained when confirmed, followed through with forensic investigation, and documented in an incident report."
+        }
+      ]
+    },
+    {
+      "question": "Can we run a proof of concept before committing?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the process for running a proof of concept?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        },
+        {
+          "component_id": "c2",
+          "question": "Is a proof of concept allowed before committing?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "Do you offer a 30 day evaluation?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is a 30 day evaluation offered?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "Is there a minimum contract term?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is there a minimum contract term?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "What is your cancellation notice period?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the cancellation notice period?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "Does the £900 price include unlimited incident response?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "pricing"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is £900 a published MDR price?",
+          "state": "UNSUPPORTED",
+          "proposition": "The approved material publishes MDR from £900 per month.",
+          "source_id": "pricing",
+          "nli_verdict": "NEUTRAL",
+          "nli_confidence": 0.9524,
+          "qualifier_check": true,
+          "numeric_check": true,
+          "provenance_check": true
+        },
+        {
+          "component_id": "c2",
+          "question": "Is incident response included in that published price?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        },
+        {
+          "component_id": "c3",
+          "question": "Is the included incident response unlimited?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The approved material publishes MDR from £900 per month.",
+          "source_id": "pricing",
+          "quote": "The approved material publishes MDR from £900 per month."
+        },
+        {
+          "component_id": "c2",
+          "text": "Is incident response included in that published price?",
+          "source_id": "pricing",
+          "quote": "Full incident response is described as included."
+        }
+      ]
+    },
+    {
+      "question": "Will onboarding require absolutely no changes to our environment?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "onboarding",
+        "tools"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is onboarding required to make any changes to our environment?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "Can you promise deployment will not affect any employee?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "onboarding"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is deployment guaranteed to not affect any employee?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The deployment does not guarantee to affect any employee.",
+          "source_id": "onboarding",
+          "quote": "The approved MDR page says active monitoring can begin within 5 to 10 days of contract signature. The broader managed-SOC guide describes managed SOC services as typically operational within 2 to 3 weeks."
+        }
+      ]
+    },
+    {
+      "question": "Will buying MDR reduce our cyber insurance premium?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "What is the relationship between purchasing MDR and cyber insurance premium reduction?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "Are all future price increases capped?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "pricing"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is all future price increases capped?",
+          "state": "UNSUPPORTED",
+          "proposition": "The approved material publishes MDR from £900 per month. It says pricing varies with endpoints or users, log sources and service tier, with fixed monthly pricing after scoping and incident response included.",
+          "source_id": "pricing",
+          "nli_verdict": "CONTRADICTION",
+          "nli_confidence": 0.9507,
+          "qualifier_check": false,
+          "numeric_check": true,
+          "provenance_check": true
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The approved material publishes MDR from £900 per month. It says pricing varies with endpoints or users, log sources and service tier, with fixed monthly pricing after scoping and incident response included.",
+          "source_id": "pricing",
+          "quote": "The approved material publishes MDR from £900 per month. It says pricing varies with endpoints or users, log sources and service tier, with fixed monthly pricing after scoping and incident response included."
+        }
+      ]
+    },
+    {
+      "question": "Do you provide a money back guarantee?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is a money back guarantee provided?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "Can you guarantee regulatory compliance?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is regulatory compliance guaranteed?",
+          "state": "UNSUPPORTED",
+          "proposition": null,
+          "source_id": null,
+          "nli_verdict": null,
+          "nli_confidence": 0.0,
+          "qualifier_check": false,
+          "numeric_check": false,
+          "provenance_check": false
+        }
+      ],
+      "generated_propositions": []
+    },
+    {
+      "question": "Does MDR guarantee ransomware can never succeed?",
+      "expected": "UNSUPPORTED",
+      "actual": "UNSUPPORTED",
+      "expected_evidence_ids": [
+        "overnight",
+        "soc"
+      ],
+      "components": [
+        {
+          "component_id": "c1",
+          "question": "Is MDR a guarantee that ransomware can never succeed?",
+          "state": "UNSUPPORTED",
+          "proposition": "The approved MDR material describes an overnight sequence involving human analyst investigation and containment of threats.",
+          "source_id": "overnight",
+          "nli_verdict": "NEUTRAL",
+          "nli_confidence": 0.9937,
+          "qualifier_check": false,
+          "numeric_check": true,
+          "provenance_check": true
+        }
+      ],
+      "generated_propositions": [
+        {
+          "component_id": "c1",
+          "text": "The approved MDR material describes an overnight sequence involving human analyst investigation and containment of threats.",
+          "source_id": "overnight",
+          "quote": "The approved MDR material gives an overnight sequence: a critical alert is picked up by a human analyst, investigated, contained when confirmed, followed through with forensic investigation, and documented in an incident report."
+        }
+      ]
+    }
+  ]
+}
