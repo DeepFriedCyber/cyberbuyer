@@ -1,0 +1,120 @@
+{
+  "version": "0.5.9",
+  "nli_model": "cross-encoder/nli-deberta-v3-small",
+  "cases": 10,
+  "combined_accuracy": 0.9,
+  "false_supported": 0,
+  "deterministic_overrides_of_entailment": 0,
+  "rows": [
+    {
+      "premise": "The approved material publishes MDR from £900 per month.",
+      "hypothesis": "MDR is available from £900 per month.",
+      "expected": "SUPPORTED",
+      "nli_verdict": "ENTAILMENT",
+      "nli_confidence": 0.9851,
+      "provenance_check": true,
+      "qualifier_check": true,
+      "numeric_check": true,
+      "combined_verdict": "SUPPORTED"
+    },
+    {
+      "premise": "The approved material publishes MDR from £900 per month.",
+      "hypothesis": "All MDR customers pay exactly £900 per month.",
+      "expected": "UNSUPPORTED",
+      "nli_verdict": "NEUTRAL",
+      "nli_confidence": 0.9989,
+      "provenance_check": true,
+      "qualifier_check": false,
+      "numeric_check": true,
+      "combined_verdict": "UNSUPPORTED"
+    },
+    {
+      "premise": "Full incident response is described as included.",
+      "hypothesis": "Incident response is included.",
+      "expected": "SUPPORTED",
+      "nli_verdict": "ENTAILMENT",
+      "nli_confidence": 0.9866,
+      "provenance_check": true,
+      "qualifier_check": true,
+      "numeric_check": true,
+      "combined_verdict": "SUPPORTED"
+    },
+    {
+      "premise": "Full incident response is described as included.",
+      "hypothesis": "Incident response is unlimited.",
+      "expected": "UNSUPPORTED",
+      "nli_verdict": "NEUTRAL",
+      "nli_confidence": 0.9865,
+      "provenance_check": true,
+      "qualifier_check": false,
+      "numeric_check": true,
+      "combined_verdict": "UNSUPPORTED"
+    },
+    {
+      "premise": "MDR can integrate with existing Microsoft security tooling.",
+      "hypothesis": "Existing Microsoft security tooling can be retained.",
+      "expected": "SUPPORTED",
+      "nli_verdict": "CONTRADICTION",
+      "nli_confidence": 0.5766,
+      "provenance_check": true,
+      "qualifier_check": true,
+      "numeric_check": true,
+      "combined_verdict": "UNSUPPORTED"
+    },
+    {
+      "premise": "MDR can integrate with existing Microsoft security tooling.",
+      "hypothesis": "Deployment requires absolutely no changes to the environment.",
+      "expected": "UNSUPPORTED",
+      "nli_verdict": "NEUTRAL",
+      "nli_confidence": 0.9964,
+      "provenance_check": true,
+      "qualifier_check": false,
+      "numeric_check": true,
+      "combined_verdict": "UNSUPPORTED"
+    },
+    {
+      "premise": "Monitoring can begin within 5 to 10 days.",
+      "hypothesis": "Monitoring can begin within 5 to 10 days.",
+      "expected": "SUPPORTED",
+      "nli_verdict": "ENTAILMENT",
+      "nli_confidence": 0.9931,
+      "provenance_check": true,
+      "qualifier_check": true,
+      "numeric_check": true,
+      "combined_verdict": "SUPPORTED"
+    },
+    {
+      "premise": "Monitoring can begin within 5 to 10 days.",
+      "hypothesis": "Monitoring always begins within 5 days.",
+      "expected": "UNSUPPORTED",
+      "nli_verdict": "CONTRADICTION",
+      "nli_confidence": 0.8724,
+      "provenance_check": true,
+      "qualifier_check": false,
+      "numeric_check": false,
+      "combined_verdict": "UNSUPPORTED"
+    },
+    {
+      "premise": "MDR provides 24/7 human investigation and response.",
+      "hypothesis": "The service includes human investigation and response.",
+      "expected": "SUPPORTED",
+      "nli_verdict": "ENTAILMENT",
+      "nli_confidence": 0.9943,
+      "provenance_check": true,
+      "qualifier_check": true,
+      "numeric_check": true,
+      "combined_verdict": "SUPPORTED"
+    },
+    {
+      "premise": "MDR provides 24/7 human investigation and response.",
+      "hypothesis": "MDR guarantees the customer will never be breached.",
+      "expected": "UNSUPPORTED",
+      "nli_verdict": "NEUTRAL",
+      "nli_confidence": 0.9973,
+      "provenance_check": true,
+      "qualifier_check": false,
+      "numeric_check": true,
+      "combined_verdict": "UNSUPPORTED"
+    }
+  ]
+}
