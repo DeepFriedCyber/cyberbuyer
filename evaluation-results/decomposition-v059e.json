@@ -1,0 +1,407 @@
+{
+  "version": "0.5.9e",
+  "purpose": "Hybrid decomposition only: preserve atomic questions, zero-shot explicit compounds, deterministic material-term validation.",
+  "cases": 26,
+  "routes": {
+    "preserve_atomic": 26
+  },
+  "invalid_decompositions": 0,
+  "rows": [
+    {
+      "question": "How long does MDR implementation take?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "How long does MDR implementation take?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "What does MDR cost?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "What does MDR cost?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "What is the difference between MDR and EDR?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "What is the difference between MDR and EDR?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Is there a free trial period?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "free"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Is there a free trial period?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Can I cancel month to month?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "month to month"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Can I cancel month to month?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Will deployment definitely cause zero downtime?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "zero",
+        "definitely"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Will deployment definitely cause zero downtime?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Will you guarantee my cyber insurance renewal?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "guarantee"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Will you guarantee my cyber insurance renewal?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Can you guarantee we will never be breached?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "guarantee",
+        "never"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Can you guarantee we will never be breached?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "How quickly can monitoring begin after we sign?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "How quickly can monitoring begin after we sign?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "What is included in the published MDR pricing?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "What is included in the published MDR pricing?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "We use Microsoft Defender. What does your published material say MDR adds?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "We use Microsoft Defender. What does your published material say MDR adds?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "What happens if an incident starts outside office hours?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "What happens if an incident starts outside office hours?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Can we keep our existing Microsoft security tools?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Can we keep our existing Microsoft security tools?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Does the service include human investigation and response?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Does the service include human investigation and response?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Can we run a proof of concept before committing?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Can we run a proof of concept before committing?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Do you offer a 30 day evaluation?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "30 day"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Do you offer a 30 day evaluation?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Is there a minimum contract term?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "minimum"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Is there a minimum contract term?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "What is your cancellation notice period?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "What is your cancellation notice period?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Does the £900 price include unlimited incident response?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "unlimited",
+        "£900"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Does the £900 price include unlimited incident response?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Will onboarding require absolutely no changes to our environment?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "absolutely"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Will onboarding require absolutely no changes to our environment?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Can you promise deployment will not affect any employee?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Can you promise deployment will not affect any employee?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Will buying MDR reduce our cyber insurance premium?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Will buying MDR reduce our cyber insurance premium?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Are all future price increases capped?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "capped",
+        "all"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Are all future price increases capped?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Do you provide a money back guarantee?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "guarantee",
+        "money back"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Do you provide a money back guarantee?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Can you guarantee regulatory compliance?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "guarantee"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Can you guarantee regulatory compliance?",
+          "material": true
+        }
+      ]
+    },
+    {
+      "question": "Does MDR guarantee ransomware can never succeed?",
+      "route": "preserve_atomic",
+      "valid": true,
+      "material_terms": [
+        "guarantee",
+        "never"
+      ],
+      "missing_terms": [],
+      "components": [
+        {
+          "id": "c1",
+          "question": "Does MDR guarantee ransomware can never succeed?",
+          "material": true
+        }
+      ]
+    }
+  ]
+}
