@@ -1,0 +1,730 @@
+{
+  "version": "0.5.9g",
+  "purpose": "Convert deterministic request facets into independently checkable evidence obligations.",
+  "cases": 26,
+  "original_preserved_count": 26,
+  "total_requirements": 67,
+  "min_requirements": 1,
+  "max_requirements": 6,
+  "rows": [
+    {
+      "question": "How long does MDR implementation take?",
+      "original_preserved": true,
+      "requirement_count": 2,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing implementation",
+          "required_terms": [
+            "implementation"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "product",
+          "description": "Evidence specifically about MDR",
+          "required_terms": [
+            "MDR"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What does MDR cost?",
+      "original_preserved": true,
+      "requirement_count": 2,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing pricing",
+          "required_terms": [
+            "pricing"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "product",
+          "description": "Evidence specifically about MDR",
+          "required_terms": [
+            "MDR"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What is the difference between MDR and EDR?",
+      "original_preserved": true,
+      "requirement_count": 1,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "relation",
+          "description": "Evidence describing the difference between MDR and EDR",
+          "required_terms": [
+            "MDR",
+            "EDR"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Is there a free trial period?",
+      "original_preserved": true,
+      "requirement_count": 2,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing evaluation",
+          "required_terms": [
+            "evaluation"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'free'",
+          "required_terms": [
+            "free"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Can I cancel month to month?",
+      "original_preserved": true,
+      "requirement_count": 2,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing contract",
+          "required_terms": [
+            "contract"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'month to month'",
+          "required_terms": [
+            "month to month"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Will deployment definitely cause zero downtime?",
+      "original_preserved": true,
+      "requirement_count": 3,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing implementation",
+          "required_terms": [
+            "implementation"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'zero'",
+          "required_terms": [
+            "zero"
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'definitely'",
+          "required_terms": [
+            "definitely"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Will you guarantee my cyber insurance renewal?",
+      "original_preserved": true,
+      "requirement_count": 2,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing insurance",
+          "required_terms": [
+            "insurance"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'guarantee'",
+          "required_terms": [
+            "guarantee"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Can you guarantee we will never be breached?",
+      "original_preserved": true,
+      "requirement_count": 3,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing breach prevention",
+          "required_terms": [
+            "breach_prevention"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'guarantee'",
+          "required_terms": [
+            "guarantee"
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'never'",
+          "required_terms": [
+            "never"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "How quickly can monitoring begin after we sign?",
+      "original_preserved": true,
+      "requirement_count": 2,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing monitoring",
+          "required_terms": [
+            "monitoring"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "relation",
+          "description": "Evidence supporting relation: begin",
+          "required_terms": [
+            "begin"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What is included in the published MDR pricing?",
+      "original_preserved": true,
+      "requirement_count": 4,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing pricing",
+          "required_terms": [
+            "pricing"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "topic",
+          "description": "Evidence addressing service scope",
+          "required_terms": [
+            "service_scope"
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "relation",
+          "description": "Evidence supporting relation: included",
+          "required_terms": [
+            "included"
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "product",
+          "description": "Evidence specifically about MDR",
+          "required_terms": [
+            "MDR"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "We use Microsoft Defender. What does your published material say MDR adds?",
+      "original_preserved": true,
+      "requirement_count": 5,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing security tools",
+          "required_terms": [
+            "security_tools"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "topic",
+          "description": "Evidence addressing service scope",
+          "required_terms": [
+            "service_scope"
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "relation",
+          "description": "Evidence supporting relation: adds",
+          "required_terms": [
+            "adds"
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "product",
+          "description": "Evidence specifically about MDR",
+          "required_terms": [
+            "MDR"
+          ]
+        },
+        {
+          "id": "r5",
+          "kind": "product",
+          "description": "Evidence specifically about Microsoft Defender",
+          "required_terms": [
+            "Microsoft Defender"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What happens if an incident starts outside office hours?",
+      "original_preserved": true,
+      "requirement_count": 1,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing incident response",
+          "required_terms": [
+            "incident_response"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Can we keep our existing Microsoft security tools?",
+      "original_preserved": true,
+      "requirement_count": 2,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing security tools",
+          "required_terms": [
+            "security_tools"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "relation",
+          "description": "Evidence supporting relation: keep existing",
+          "required_terms": [
+            "keep_existing"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Does the service include human investigation and response?",
+      "original_preserved": true,
+      "requirement_count": 4,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing incident response",
+          "required_terms": [
+            "incident_response"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "topic",
+          "description": "Evidence addressing human investigation",
+          "required_terms": [
+            "human_investigation"
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "topic",
+          "description": "Evidence addressing service scope",
+          "required_terms": [
+            "service_scope"
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "relation",
+          "description": "Evidence supporting relation: included",
+          "required_terms": [
+            "included"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Can we run a proof of concept before committing?",
+      "original_preserved": true,
+      "requirement_count": 1,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing evaluation",
+          "required_terms": [
+            "evaluation"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Do you offer a 30 day evaluation?",
+      "original_preserved": true,
+      "requirement_count": 2,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing evaluation",
+          "required_terms": [
+            "evaluation"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "duration",
+          "description": "Evidence explicitly supporting duration 30 day",
+          "required_terms": [
+            "30 day"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Is there a minimum contract term?",
+      "original_preserved": true,
+      "requirement_count": 2,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing contract",
+          "required_terms": [
+            "contract"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'minimum'",
+          "required_terms": [
+            "minimum"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What is your cancellation notice period?",
+      "original_preserved": true,
+      "requirement_count": 1,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing contract",
+          "required_terms": [
+            "contract"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Does the £900 price include unlimited incident response?",
+      "original_preserved": true,
+      "requirement_count": 6,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing pricing",
+          "required_terms": [
+            "pricing"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "topic",
+          "description": "Evidence addressing incident response",
+          "required_terms": [
+            "incident_response"
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "topic",
+          "description": "Evidence addressing service scope",
+          "required_terms": [
+            "service_scope"
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "relation",
+          "description": "Evidence supporting relation: included",
+          "required_terms": [
+            "included"
+          ]
+        },
+        {
+          "id": "r5",
+          "kind": "amount",
+          "description": "Evidence explicitly supporting amount £900",
+          "required_terms": [
+            "£900"
+          ]
+        },
+        {
+          "id": "r6",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'unlimited'",
+          "required_terms": [
+            "unlimited"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Will onboarding require absolutely no changes to our environment?",
+      "original_preserved": true,
+      "requirement_count": 3,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing implementation",
+          "required_terms": [
+            "implementation"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "relation",
+          "description": "Evidence supporting relation: require",
+          "required_terms": [
+            "require"
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'absolutely'",
+          "required_terms": [
+            "absolutely"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Can you promise deployment will not affect any employee?",
+      "original_preserved": true,
+      "requirement_count": 2,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing implementation",
+          "required_terms": [
+            "implementation"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "relation",
+          "description": "Evidence supporting relation: affect",
+          "required_terms": [
+            "affect"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Will buying MDR reduce our cyber insurance premium?",
+      "original_preserved": true,
+      "requirement_count": 4,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing pricing",
+          "required_terms": [
+            "pricing"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "topic",
+          "description": "Evidence addressing insurance",
+          "required_terms": [
+            "insurance"
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "relation",
+          "description": "Evidence supporting relation: reduce",
+          "required_terms": [
+            "reduce"
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "product",
+          "description": "Evidence specifically about MDR",
+          "required_terms": [
+            "MDR"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Are all future price increases capped?",
+      "original_preserved": true,
+      "requirement_count": 3,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing pricing",
+          "required_terms": [
+            "pricing"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'capped'",
+          "required_terms": [
+            "capped"
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'all'",
+          "required_terms": [
+            "all"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Do you provide a money back guarantee?",
+      "original_preserved": true,
+      "requirement_count": 2,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'guarantee'",
+          "required_terms": [
+            "guarantee"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'money back'",
+          "required_terms": [
+            "money back"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Can you guarantee regulatory compliance?",
+      "original_preserved": true,
+      "requirement_count": 2,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing compliance",
+          "required_terms": [
+            "compliance"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'guarantee'",
+          "required_terms": [
+            "guarantee"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Does MDR guarantee ransomware can never succeed?",
+      "original_preserved": true,
+      "requirement_count": 4,
+      "requirements": [
+        {
+          "id": "r1",
+          "kind": "topic",
+          "description": "Evidence addressing breach prevention",
+          "required_terms": [
+            "breach_prevention"
+          ]
+        },
+        {
+          "id": "r2",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'guarantee'",
+          "required_terms": [
+            "guarantee"
+          ]
+        },
+        {
+          "id": "r3",
+          "kind": "qualifier",
+          "description": "Evidence explicitly supporting qualifier 'never'",
+          "required_terms": [
+            "never"
+          ]
+        },
+        {
+          "id": "r4",
+          "kind": "product",
+          "description": "Evidence specifically about MDR",
+          "required_terms": [
+            "MDR"
+          ]
+        }
+      ]
+    }
+  ]
+}
