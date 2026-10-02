@@ -1,0 +1,1094 @@
+{
+  "version": "0.5.9d",
+  "purpose": "Decomposition-only comparison; no retrieval, NLI or answer generation.",
+  "cases": 26,
+  "few_shot_contaminated_cases": 3,
+  "zero_shot_contaminated_cases": 0,
+  "changed_decomposition_cases": 22,
+  "changed_cases": [
+    {
+      "question": "How long does MDR implementation take?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the typical duration of MDR implementation?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What is the duration of MDR implementation?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "What does MDR cost?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the published MDR price?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What is the cost of MDR?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [
+        {
+          "term": "published mdr price",
+          "family": "price_example"
+        }
+      ],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Can I cancel month to month?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is cancellation of a month-to-month agreement allowed?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Can I cancel month to month?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Will deployment definitely cause zero downtime?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is deployment guaranteed to cause zero downtime?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Will deployment definitely cause zero downtime?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Will you guarantee my cyber insurance renewal?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is cyber insurance renewal guaranteed?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Will you guarantee my cyber insurance renewal?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Can you guarantee we will never be breached?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is the guarantee of never being breached a material part of the service?",
+          "material": true
+        },
+        {
+          "id": "c2",
+          "question": "What is the nature of the guarantee provided?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Can you guarantee we will never be breached?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "What is included in the published MDR pricing?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the published MDR pricing including?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What is included in the published MDR pricing?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "We use Microsoft Defender. What does your published material say MDR adds?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the published MDR price?",
+          "material": true
+        },
+        {
+          "id": "c2",
+          "question": "Is incident response included in that published price?",
+          "material": true
+        },
+        {
+          "id": "c3",
+          "question": "Is the included incident response unlimited?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What does your published material say about MDR adds?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [
+        {
+          "term": "published mdr price",
+          "family": "price_example"
+        },
+        {
+          "term": "incident response included",
+          "family": "unlimited_example"
+        },
+        {
+          "term": "included incident response unlimited",
+          "family": "unlimited_example"
+        }
+      ],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Can we keep our existing Microsoft security tools?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the policy regarding keeping existing Microsoft security tools?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Can we keep our existing Microsoft security tools?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Does the service include human investigation and response?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is human investigation and response included in the service?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Does the service include human investigation and response?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Can we run a proof of concept before committing?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the process for running a proof of concept?",
+          "material": true
+        },
+        {
+          "id": "c2",
+          "question": "Is a proof of concept allowed before committing?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Can we run a proof of concept before committing?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Do you offer a 30 day evaluation?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is a 30 day evaluation offered?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Are you offering a 30-day evaluation?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Is there a minimum contract term?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is there a minimum contract term?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What is the minimum contract term?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "What is your cancellation notice period?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the cancellation notice period?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What is your cancellation notice period?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Does the £900 price include unlimited incident response?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is £900 a published MDR price?",
+          "material": true
+        },
+        {
+          "id": "c2",
+          "question": "Is incident response included in that published price?",
+          "material": true
+        },
+        {
+          "id": "c3",
+          "question": "Is the included incident response unlimited?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Does the £900 price include unlimited incident response?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [
+        {
+          "term": "published mdr price",
+          "family": "price_example"
+        },
+        {
+          "term": "incident response included",
+          "family": "unlimited_example"
+        },
+        {
+          "term": "included incident response unlimited",
+          "family": "unlimited_example"
+        }
+      ],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Will onboarding require absolutely no changes to our environment?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is onboarding required to make any changes to our environment?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Will onboarding require absolutely no changes to our environment?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Can you promise deployment will not affect any employee?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is deployment guaranteed to not affect any employee?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Can you promise deployment will not affect any employee?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Will buying MDR reduce our cyber insurance premium?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the relationship between purchasing MDR and cyber insurance premium reduction?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Will buying MDR reduce our cyber insurance premium?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Are all future price increases capped?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is all future price increases capped?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Are all future price increases capped?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Do you provide a money back guarantee?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is a money back guarantee provided?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Do you provide a money back guarantee?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Can you guarantee regulatory compliance?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is regulatory compliance guaranteed?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Can you guarantee regulatory compliance?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Does MDR guarantee ransomware can never succeed?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is MDR a guarantee that ransomware can never succeed?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Does MDR guarantee ransomware can never succeed?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    }
+  ],
+  "rows": [
+    {
+      "question": "How long does MDR implementation take?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the typical duration of MDR implementation?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What is the duration of MDR implementation?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "What does MDR cost?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the published MDR price?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What is the cost of MDR?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [
+        {
+          "term": "published mdr price",
+          "family": "price_example"
+        }
+      ],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "What is the difference between MDR and EDR?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the difference between MDR and EDR?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What is the difference between MDR and EDR?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": true
+    },
+    {
+      "question": "Is there a free trial period?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is there a free trial period?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Is there a free trial period?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": true
+    },
+    {
+      "question": "Can I cancel month to month?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is cancellation of a month-to-month agreement allowed?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Can I cancel month to month?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Will deployment definitely cause zero downtime?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is deployment guaranteed to cause zero downtime?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Will deployment definitely cause zero downtime?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Will you guarantee my cyber insurance renewal?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is cyber insurance renewal guaranteed?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Will you guarantee my cyber insurance renewal?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Can you guarantee we will never be breached?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is the guarantee of never being breached a material part of the service?",
+          "material": true
+        },
+        {
+          "id": "c2",
+          "question": "What is the nature of the guarantee provided?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Can you guarantee we will never be breached?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "How quickly can monitoring begin after we sign?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the minimum time frame for starting monitoring after signing?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What is the minimum time frame for starting monitoring after signing?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": true
+    },
+    {
+      "question": "What is included in the published MDR pricing?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the published MDR pricing including?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What is included in the published MDR pricing?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "We use Microsoft Defender. What does your published material say MDR adds?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the published MDR price?",
+          "material": true
+        },
+        {
+          "id": "c2",
+          "question": "Is incident response included in that published price?",
+          "material": true
+        },
+        {
+          "id": "c3",
+          "question": "Is the included incident response unlimited?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What does your published material say about MDR adds?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [
+        {
+          "term": "published mdr price",
+          "family": "price_example"
+        },
+        {
+          "term": "incident response included",
+          "family": "unlimited_example"
+        },
+        {
+          "term": "included incident response unlimited",
+          "family": "unlimited_example"
+        }
+      ],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "What happens if an incident starts outside office hours?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What happens if an incident starts outside office hours?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What happens if an incident starts outside office hours?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": true
+    },
+    {
+      "question": "Can we keep our existing Microsoft security tools?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the policy regarding keeping existing Microsoft security tools?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Can we keep our existing Microsoft security tools?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Does the service include human investigation and response?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is human investigation and response included in the service?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Does the service include human investigation and response?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Can we run a proof of concept before committing?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the process for running a proof of concept?",
+          "material": true
+        },
+        {
+          "id": "c2",
+          "question": "Is a proof of concept allowed before committing?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Can we run a proof of concept before committing?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Do you offer a 30 day evaluation?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is a 30 day evaluation offered?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Are you offering a 30-day evaluation?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Is there a minimum contract term?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is there a minimum contract term?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What is the minimum contract term?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "What is your cancellation notice period?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the cancellation notice period?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "What is your cancellation notice period?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Does the £900 price include unlimited incident response?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is £900 a published MDR price?",
+          "material": true
+        },
+        {
+          "id": "c2",
+          "question": "Is incident response included in that published price?",
+          "material": true
+        },
+        {
+          "id": "c3",
+          "question": "Is the included incident response unlimited?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Does the £900 price include unlimited incident response?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [
+        {
+          "term": "published mdr price",
+          "family": "price_example"
+        },
+        {
+          "term": "incident response included",
+          "family": "unlimited_example"
+        },
+        {
+          "term": "included incident response unlimited",
+          "family": "unlimited_example"
+        }
+      ],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Will onboarding require absolutely no changes to our environment?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is onboarding required to make any changes to our environment?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Will onboarding require absolutely no changes to our environment?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Can you promise deployment will not affect any employee?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is deployment guaranteed to not affect any employee?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Can you promise deployment will not affect any employee?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Will buying MDR reduce our cyber insurance premium?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "What is the relationship between purchasing MDR and cyber insurance premium reduction?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Will buying MDR reduce our cyber insurance premium?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Are all future price increases capped?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is all future price increases capped?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Are all future price increases capped?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Do you provide a money back guarantee?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is a money back guarantee provided?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Do you provide a money back guarantee?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Can you guarantee regulatory compliance?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is regulatory compliance guaranteed?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Can you guarantee regulatory compliance?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    },
+    {
+      "question": "Does MDR guarantee ransomware can never succeed?",
+      "few_shot": [
+        {
+          "id": "c1",
+          "question": "Is MDR a guarantee that ransomware can never succeed?",
+          "material": true
+        }
+      ],
+      "zero_shot": [
+        {
+          "id": "c1",
+          "question": "Does MDR guarantee ransomware can never succeed?",
+          "material": true
+        }
+      ],
+      "few_shot_contamination": [],
+      "zero_shot_contamination": [],
+      "same_decomposition": false
+    }
+  ]
+}
