@@ -1,0 +1,398 @@
+{
+  "version": "0.5.9f",
+  "purpose": "Deterministic request-facet extraction without rewriting buyer language.",
+  "cases": 26,
+  "original_preserved_count": 26,
+  "questions_with_topics": 24,
+  "questions_with_qualifiers": 12,
+  "questions_with_amounts": 1,
+  "questions_with_durations": 1,
+  "questions_with_products": 7,
+  "questions_with_relations": 10,
+  "rows": [
+    {
+      "question": "How long does MDR implementation take?",
+      "original_preserved": true,
+      "topics": [
+        "implementation"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [
+        "MDR"
+      ],
+      "relations": []
+    },
+    {
+      "question": "What does MDR cost?",
+      "original_preserved": true,
+      "topics": [
+        "pricing"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [
+        "MDR"
+      ],
+      "relations": []
+    },
+    {
+      "question": "What is the difference between MDR and EDR?",
+      "original_preserved": true,
+      "topics": [],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [
+        "MDR",
+        "EDR"
+      ],
+      "relations": [
+        "difference"
+      ]
+    },
+    {
+      "question": "Is there a free trial period?",
+      "original_preserved": true,
+      "topics": [
+        "evaluation"
+      ],
+      "qualifiers": [
+        "free"
+      ],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "Can I cancel month to month?",
+      "original_preserved": true,
+      "topics": [
+        "contract"
+      ],
+      "qualifiers": [
+        "month to month"
+      ],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "Will deployment definitely cause zero downtime?",
+      "original_preserved": true,
+      "topics": [
+        "implementation"
+      ],
+      "qualifiers": [
+        "zero",
+        "definitely"
+      ],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "Will you guarantee my cyber insurance renewal?",
+      "original_preserved": true,
+      "topics": [
+        "insurance"
+      ],
+      "qualifiers": [
+        "guarantee"
+      ],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "Can you guarantee we will never be breached?",
+      "original_preserved": true,
+      "topics": [
+        "breach_prevention"
+      ],
+      "qualifiers": [
+        "guarantee",
+        "never"
+      ],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "How quickly can monitoring begin after we sign?",
+      "original_preserved": true,
+      "topics": [
+        "monitoring"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": [
+        "begin"
+      ]
+    },
+    {
+      "question": "What is included in the published MDR pricing?",
+      "original_preserved": true,
+      "topics": [
+        "pricing",
+        "service_scope"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [
+        "MDR"
+      ],
+      "relations": [
+        "included"
+      ]
+    },
+    {
+      "question": "We use Microsoft Defender. What does your published material say MDR adds?",
+      "original_preserved": true,
+      "topics": [
+        "security_tools",
+        "service_scope"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [
+        "MDR",
+        "Microsoft Defender"
+      ],
+      "relations": [
+        "adds"
+      ]
+    },
+    {
+      "question": "What happens if an incident starts outside office hours?",
+      "original_preserved": true,
+      "topics": [
+        "incident_response"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "Can we keep our existing Microsoft security tools?",
+      "original_preserved": true,
+      "topics": [
+        "security_tools"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": [
+        "keep_existing"
+      ]
+    },
+    {
+      "question": "Does the service include human investigation and response?",
+      "original_preserved": true,
+      "topics": [
+        "incident_response",
+        "human_investigation",
+        "service_scope"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": [
+        "included"
+      ]
+    },
+    {
+      "question": "Can we run a proof of concept before committing?",
+      "original_preserved": true,
+      "topics": [
+        "evaluation"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "Do you offer a 30 day evaluation?",
+      "original_preserved": true,
+      "topics": [
+        "evaluation"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [
+        "30 day"
+      ],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "Is there a minimum contract term?",
+      "original_preserved": true,
+      "topics": [
+        "contract"
+      ],
+      "qualifiers": [
+        "minimum"
+      ],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "What is your cancellation notice period?",
+      "original_preserved": true,
+      "topics": [
+        "contract"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "Does the £900 price include unlimited incident response?",
+      "original_preserved": true,
+      "topics": [
+        "pricing",
+        "incident_response",
+        "service_scope"
+      ],
+      "qualifiers": [
+        "unlimited"
+      ],
+      "amounts": [
+        "£900"
+      ],
+      "durations": [],
+      "products": [],
+      "relations": [
+        "included"
+      ]
+    },
+    {
+      "question": "Will onboarding require absolutely no changes to our environment?",
+      "original_preserved": true,
+      "topics": [
+        "implementation"
+      ],
+      "qualifiers": [
+        "absolutely"
+      ],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": [
+        "require"
+      ]
+    },
+    {
+      "question": "Can you promise deployment will not affect any employee?",
+      "original_preserved": true,
+      "topics": [
+        "implementation"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": [
+        "affect"
+      ]
+    },
+    {
+      "question": "Will buying MDR reduce our cyber insurance premium?",
+      "original_preserved": true,
+      "topics": [
+        "pricing",
+        "insurance"
+      ],
+      "qualifiers": [],
+      "amounts": [],
+      "durations": [],
+      "products": [
+        "MDR"
+      ],
+      "relations": [
+        "reduce"
+      ]
+    },
+    {
+      "question": "Are all future price increases capped?",
+      "original_preserved": true,
+      "topics": [
+        "pricing"
+      ],
+      "qualifiers": [
+        "capped",
+        "all"
+      ],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "Do you provide a money back guarantee?",
+      "original_preserved": true,
+      "topics": [],
+      "qualifiers": [
+        "guarantee",
+        "money back"
+      ],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "Can you guarantee regulatory compliance?",
+      "original_preserved": true,
+      "topics": [
+        "compliance"
+      ],
+      "qualifiers": [
+        "guarantee"
+      ],
+      "amounts": [],
+      "durations": [],
+      "products": [],
+      "relations": []
+    },
+    {
+      "question": "Does MDR guarantee ransomware can never succeed?",
+      "original_preserved": true,
+      "topics": [
+        "breach_prevention"
+      ],
+      "qualifiers": [
+        "guarantee",
+        "never"
+      ],
+      "amounts": [],
+      "durations": [],
+      "products": [
+        "MDR"
+      ],
+      "relations": []
+    }
+  ]
+}
